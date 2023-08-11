@@ -1,0 +1,249 @@
+body {
+  background: white;
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.nav img {
+  margin-top: -5rem !important;
+  margin-bottom: -4rem !important;
+}
+
+.search-container {
+  max-width: 70%;
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 1.625rem;
+  position: relative;
+  box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.12);
+}
+
+#searchBar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 220px;
+  padding: 20px;
+  box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.12);
+}
+
+#search-input {
+  width: 100%;
+  height: 2.8rem;
+  background: #eff1f1ef;
+  outline: none;
+  border: none;
+  border-radius: 1.625rem;
+  padding: 0 3.5rem 0 1.5rem;
+  font-size: 1rem;
+}
+
+.container{
+  display:grid;
+  height:60vh;
+  width:80%;
+  gap:70px;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 20px;
+  padding: 20px;
+}
+
+a.hover_link:hover {
+  color: rgb(175, 43, 43) !important;
+}
+
+.box1{
+  grid-area:span 1;
+  background-color: #d6dadaef;
+  border-radius: 10px;
+  border:15px black;
+  margin-top: 30px;
+  transition: background-color 0.3s ease;
+  
+}
+
+.box1:hover {
+  background-color: #daf0b1;
+}
+
+.box2{
+  grid-area:span 1;
+  background-color: #d6dadaef;
+  border-radius: 10px;
+  border:15px black;
+  margin-top: 30px;
+  transition: background-color 0.3s ease;
+}
+.box2:hover {
+  background-color: #daf0b1;
+}
+
+.header {
+  display: flex;
+  font-size: 30px;
+  font-weight: 800;
+  padding: 10px;
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (min-width: 769px) {
+  .container {
+    margin-top: 100px;
+    margin: auto;
+    height: 80%;
+    width: 100%;
+    font-size: medium;
+  }
+  .section {
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+  }
+
+  .section2 {
+    margin-top: 20%;
+    z-index: -1;
+    float: left;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .container {
+    margin-top: 100px;
+    margin: auto;
+    height: 80%;
+    width: 100%;
+    font-size: medium;
+    display: inline-block;
+  }
+  .section {
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+  }
+
+  .section2 {
+    margin-top: 20%;
+    z-index: -1;
+    float: left;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  .container {
+    margin-top: 100px;
+    margin: auto;
+    height: 80%;
+    width: 100%;
+    font-size: medium;
+    
+    display: inline-block;
+  }
+  .section {
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+  }
+
+  .section2 {
+    margin-top: 20%;
+    z-index: -1;
+    float: left;
+  }
+}
+
+
+.contain {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  overflow-x: scroll;
+}
+
+.cardd {
+  min-width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.card-body li a {
+  text-decoration: none;
+  color: black;
+}
+
+.dropbtn {
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 8px 10px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  color: rgb(41, 40, 40);
+}
+
+
+.section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.section2 {
+  margin-top: 10%;
+  z-index: -1;
+  float: left;
+}
+
+
+.highlighted {
+  border: 2px solid black; /* Change border style as needed */
+}

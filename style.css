@@ -233,7 +233,6 @@ ul > li > a {
 
 
 .section {
-  padding: 20px;
   margin-bottom: 20px;
 }
 
@@ -247,3 +246,16 @@ ul > li > a {
 .highlighted {
   border: 2px solid black; /* Change border style as needed */
 }
+
+
+/* Hide submenus by default */
+.submenu {
+  display: none;
+}
+
+/* Show submenu on hover */
+li:hover .submenu {
+  display: block;
+}
+
+/* Add additional styling as needed */

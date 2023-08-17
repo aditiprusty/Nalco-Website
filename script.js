@@ -4,7 +4,7 @@ var linkArray = [
     { text: 'Change Password', url: '#' },
     { text: 'Profile', url: '#c' },
     { text: 'CLMS', url: '#' },
-    { text: 'eGreetings ->', url: '#', submenu: [
+    { text: 'eGreetings ->', submenu: [
       {text: 'option1', url: '#'},
       {text: 'option2', url: '#'},
       {text: 'option3', url: '#'}

@@ -61,6 +61,13 @@ body {
   padding: 20px;
 }
 
+.cardd .card-header{
+  background-color: rgb(238, 236, 236); 
+  font-weight: bold; 
+  padding: 15px; 
+  text-align: center;
+}
+
 a.hover_link:hover {
   color: rgb(175, 43, 43) !important;
 }
